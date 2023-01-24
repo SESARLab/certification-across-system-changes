@@ -1,0 +1,692 @@
+[
+    {
+        "dataset_training": {
+            "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+            "inner_n_jobs": 2,
+            "size": 1000,
+            "truncate_to": 1000,
+            "perc_of_anomalous_data_points": 0.1
+        },
+        "exp_configs": [
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P1.1",
+                    "group": "P1.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.333333333333333, 0.333333333333333, 0.333333333333333],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "MS"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P1.2",
+                    "group": "P1.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.333333333333333, 0.333333333333333, 0.333333333333333],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "MS"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P1.3",
+                    "group": "P1.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.333333333333333, 0.333333333333333, 0.333333333333333],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "MS"
+                }
+            },
+
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P2.1",
+                    "group": "P2.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.5, 0.25, 0.25],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "MS"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P2.2",
+                    "group": "P2.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.5, 0.25, 0.25],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "MS"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P2.3",
+                    "group": "P2.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.5, 0.25, 0.25],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "MS"
+                }
+            },
+
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P3.1",
+                    "group": "P3.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.5, 0.25],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "MS"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P3.2",
+                    "group": "P3.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.5, 0.25],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "MS"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P3.3",
+                    "group": "P3.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.5, 0.25],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "MS"
+                }
+            },
+
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P4.1",
+                    "group": "P4.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.25, 0.5],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "MS"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P4.2",
+                    "group": "P4.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.25, 0.5],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "MS"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/media-service",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P4.3",
+                    "group": "P4.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.25, 0.5],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "MS"
+                }
+            }
+        ]
+    },
+    {
+        "dataset_training": {
+            "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+            "inner_n_jobs": 2,
+            "size": 1000,
+            "truncate_to": 1000,
+            "perc_of_anomalous_data_points": 0.1
+        },
+        "exp_configs": [
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P1.1",
+                    "group": "P1.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.333333333333333, 0.333333333333333, 0.333333333333333],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "SN"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P1.2",
+                    "group": "P1.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.333333333333333, 0.333333333333333, 0.333333333333333],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "SN"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P1.3",
+                    "group": "P1.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.333333333333333, 0.333333333333333, 0.333333333333333],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "SN"
+                }
+            },
+
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P2.1",
+                    "group": "P2.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.5, 0.25, 0.25],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "SN"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P2.2",
+                    "group": "P2.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.5, 0.25, 0.25],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "SN"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P2.3",
+                    "group": "P2.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.5, 0.25, 0.25],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "SN"
+                }
+            },
+
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P3.1",
+                    "group": "P3.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.5, 0.25],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "SN"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P3.2",
+                    "group": "P3.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.5, 0.25],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "SN"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P3.3",
+                    "group": "P3.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.5, 0.25],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "SN"
+                }
+            },
+
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P4.1",
+                    "group": "P4.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.25, 0.5],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "SN"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P4.2",
+                    "group": "P4.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.25, 0.5],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "SN"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/social-network",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P4.3",
+                    "group": "P4.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.25, 0.5],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "SN"
+                }
+            }
+        ]
+    },
+    {
+        "dataset_training": {
+            "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+            "inner_n_jobs": 2,
+            "size": 1000,
+            "truncate_to": 1000,
+            "perc_of_anomalous_data_points": 0.1
+        },
+        "exp_configs": [
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P1.1",
+                    "group": "P1.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.333333333333333, 0.333333333333333, 0.333333333333333],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "TT"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P1.2",
+                    "group": "P1.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.333333333333333, 0.333333333333333, 0.333333333333333],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "TT"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P1.3",
+                    "group": "P1.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.333333333333333, 0.333333333333333, 0.333333333333333],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "TT"
+                }
+            },
+    
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P2.1",
+                    "group": "P2.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.5, 0.25, 0.25],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "TT"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P2.2",
+                    "group": "P2.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.5, 0.25, 0.25],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "TT"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P2.3",
+                    "group": "P2.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.5, 0.25, 0.25],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "TT"
+                }
+            },
+    
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P3.1",
+                    "group": "P3.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.5, 0.25],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "TT"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P3.2",
+                    "group": "P3.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.5, 0.25],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "TT"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P3.3",
+                    "group": "P3.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.5, 0.25],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "TT"
+                }
+            },
+    
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P4.1",
+                    "group": "P4.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.25, 0.5],
+                    "proba_minor_vs_major": 0.25,
+                    "proba_not_critical_vs_critical": 0.25,
+                    "proba_one_component_env": 0.25,
+                    "proba_one_component_code_major": 0.25,
+                    "proba_one_component_code_minor": 0.25,
+                    "dataset_name": "TT"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P4.2",
+                    "group": "P4.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.25, 0.5],
+                    "proba_minor_vs_major": 0.5,
+                    "proba_not_critical_vs_critical": 0.5,
+                    "proba_one_component_env": 0.5,
+                    "proba_one_component_code_major": 0.5,
+                    "proba_one_component_code_minor": 0.5,
+                    "dataset_name": "TT"
+                }
+            },
+            {
+                "directory": "/Users/nicola/UniWork/Research/CloudCertification/Paper2_EvolvingCertificate/Experiments/Results/V2/Scheme/Input/train-ticket",
+                "max_n_jobs": 8,
+                "n_run_for_each": 10,
+                "dataset_config": {
+                    "name": "P4.3",
+                    "group": "P4.X",
+                    "wanted_size": 1000,
+                    "proba_not_change_vs_change": 0.6,
+                    "proba_environment_vs_code_vs_both": [0.25, 0.25, 0.5],
+                    "proba_minor_vs_major": 0.75,
+                    "proba_not_critical_vs_critical": 0.75,
+                    "proba_one_component_env": 0.75,
+                    "proba_one_component_code_major": 0.75,
+                    "proba_one_component_code_minor": 0.75,
+                    "dataset_name": "TT"
+                }
+            }
+        ]
+    }
+]
