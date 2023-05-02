@@ -1,9 +1,6 @@
 # Continuous Certification of Non-Functional Properties Across System Changes
 
-[Marco Anisetti](https://homes.di.unimi.it/anisetti), [Claudio A. Ardagna](https://homes.di.unimi.it/ardagna), [Nicola Bena](https://homes.di.unimi.it/bena)
-
 > Existing certification schemes implement continuous verification techniques aimed to prove  non-functional (e.g., security) properties of software systems over time. These schemes provide different re-certification techniques for managing the certificate life cycle, though they  build on strong assumptions that make them ineffective in the context of modern distributed systems. Re-certification techniques are in fact built on static system models, which do not properly represent the system evolution for certification, and on static detection of system changes that result in an inaccurate planning of re-certification activities. In this paper, we propose a novel continuous certification scheme that departs from a static management of a certificate life cycle and provides a dynamic approach built on a machine learning-based modeling of the system behavior. Change detection at the basis of re-certification is built on the monitoring of the system behavior, which permits to reduce the amount of unnecessary re-certification. The quality and performance of the proposed scheme is experimentally evaluated using a publicly-available dataset built on three composite (micro)services in literature.
-
 
 This repository contains the source code, input dataset, and detailed results of our experimental evaluation.
 
