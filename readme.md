@@ -4,7 +4,22 @@
 
 This repository contains the source code, input dataset, and detailed results of our experimental evaluation.
 
-## Overview
+<!-- vscode-markdown-toc -->
+* 1. [Overview](#Overview)
+* 2. [Organization](#Organization)
+	* 2.1. [Details: Code Organization](#Details:CodeOrganization)
+	* 2.2. [Details: Input](#Details:Input)
+	* 2.3. [Details: Output](#Details:Output)
+* 3. [Example Execution](#ExampleExecution)
+* 4. [Appendix of the Paper](#AppendixPaper)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+##  1. <a name='Overview'></a>Overview
 
 The code is written in Python 3 and tested in an MacOS environment (`virtualenv`) with Python 3.10; dependencies are listed in [requirements.txt](requirements.txt).
 
@@ -15,9 +30,7 @@ We then apply our scheme and the state of the art scheme on the generated datase
 
 Each row of the table below represents an experimental settings driving the generation of our datasets. The process of dataset generation and schemes application have been repeated 10 times for each distributed system and experimental settings.
 
-### Settings
-
-## Organization
+##  2. <a name='Organization'></a>Organization
 
 The repository is organized in the following directories:
 
@@ -26,7 +39,7 @@ The repository is organized in the following directories:
 - [Output](Output): contains the results of our experiments, including generated datasets, with results aggregated at different levels.
 - [input.json](input.json): contains the actual input to run the code and reproduce our results.
 
-### Details: Code Organization
+###  2.1. <a name='Details:CodeOrganization'></a>Details: Code Organization
 
 The code consists of the following files:
 
@@ -40,14 +53,14 @@ The code consists of the following files:
 
 Each file has its own set of tests executable with `pytest`.
 
-### Details: Input
+###  2.2. <a name='Details:Input'></a>Details: Input
 
 The code requires two inputs: initial data from [https://doi.org/10.13012/B2IDB-6738796_V1](https://doi.org/10.13012/B2IDB-6738796_V1), and experimental settings as reported in the table above.
 
 **Initial data**: the code works on the data as is, as long as each distributed system has its own directory.
 **Experimental settings**: they need to be provided as a json file; this file contains the different probabilities as well as path to input data. This repository contains the input data we used during our experiments, therefore paths to be adjusted properly.
 
-### Details: Output
+###  2.3. <a name='Details:Output'></a>Details: Output
 
 The code produces aggregated and detailed results in two formats: excel and csv. The two formats are *always* generated, that is, there is no option to choose the desired format.
 
@@ -74,7 +87,7 @@ Individual files have a pretty self-explanatory names, those containing `scheme`
 
 **Note**: our experiments have been executed with option `--include-strip-down True`, this means that for each output file there exists a *stripped down version* where only columns including averaged data are reported. This also means that some files are basically empty because this filter removes all data. We nevertheless decided to include these files, since we run our experiments including this option.
 
-## Example Execution
+##  3. <a name='ExampleExecution'></a>Example Execution
 
 To reproduce our results you need to:
 
@@ -89,3 +102,7 @@ python entrypoint.py \
 ```
 
 Execution is parallelized and experiments should last some minutes.
+
+## 4. <a name="AppendixPaper"></a> Appendix of the Paper
+
+The file [appendix.pdf](appendix.pdf) contains the appendix of the corresponding paper, including quality evaluation of the machine learning-based system model.
