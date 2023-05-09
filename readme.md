@@ -28,7 +28,23 @@ The aim of our experimental evaluation is to compare our scheme with a scheme re
 We defined our experimental settings extracting normal and anomalous data from the above data, to generate a dataset including environmental changes and code changes with and without impact on the behavior. Each data point of the dataset is also annotated with additional information (e.g., presence of critical components affected by the change).
 We then apply our scheme and the state of the art scheme on the generated dataset.
 
-Each row of the table below represents an experimental settings driving the generation of our datasets. The process of dataset generation and schemes application have been repeated 10 times for each distributed system and experimental settings.
+Each row of the table below represents an experimental settings driving the generation of our datasets. The process of dataset generation and schemes application have been repeated 10 times for each distributed system and experimental settings. The original paper and [appendix.pdf](appendix.pdf) contain details on the meaning of each columns.
+
+| **Name** | $\Delta_b$ | $\Delta_c$ | $\Delta_c$ with cascading | *non critical* | *minor* | $n(comp)_b$ | $n(comp)_{\text{min}}$ | $n(comp)_{\text{maj}}$ |
+| - | - | - | - | - | - | - | - | - |
+| **P1.1** | $0.3\overline{3}$ | $  0.3\overline{3}$ | $  0.3\overline{3}$ | $  0.25$ | $  0.25$ | $  0.25$ | $  0.25$ | $  0.25$ |
+| **P1.2** | $0.3\overline{3}$ | $  0.3\overline{3}$ | $  0.3\overline{3}$ | $  0.5$ | $  0.5$ | $  0.5$ | $  0.5$ | $  0.5$ |
+| **P1.3** | $0.3\overline{3}$ | $  0.3\overline{3}$ | $  0.3\overline{3}$ | $  0.75$ | $  0.75$ | $  0.75$ | $  0.75$ | $  0.75$ |
+| **P2.1** | $0.5$ | $  0.25$ | $  0.25$ | $  0.25$ | $  0.25$ | $  0.25$ | $  0.25$ | $  0.25$ |
+| **P2.2** | $0.5$ | $  0.25$ | $  0.25$ | $  0.5$ | $  0.5$ | $  0.5$ | $  0.5$ | $  0.5$ |
+| **P2.3** | $0.5$ | $  0.25$ | $  0.25$ | $  0.75$ | $  0.75$ | $  0.75$ | $  0.75$ | $  0.75$ |
+| **P3.1** | $0.25$ | $  0.5$ | $  0.25$ | $  0.25$ | $  0.25$ | $  0.25$ | $  0.25$ | $  0.25$ |
+| **P3.2** | $0.25$ | $  0.5$ | $  0.25$ | $  0.5$ | $  0.5$ | $  0.5$ | $  0.5$ | $  0.5$ |
+| **P3.3** | $0.25$ | $  0.5$ | $  0.25$ | $  0.75$ | $  0.75$ | $  0.75$ | $  0.75$ | $  0.75$ |
+| **P4.1** | $0.25$ | $  0.25$ | $  0.5$ | $  0.25$ | $  0.25$ | $  0.25$ | $  0.25$ | $  0.25$ |
+| **P4.2** | $0.25$ | $  0.25$ | $  0.5$ | $  0.5$ | $  0.5$ | $  0.5$ | $  0.5$ | $  0.5$ |
+| **P4.3** | $0.25$ | $  0.25$ | $  0.5$ | $  0.75$ | $  0.75$ | $  0.75$ | $  0.75$ | $  0.75$ |
+
 
 ##  2. <a name='Organization'></a>Organization
 
