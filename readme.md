@@ -1,6 +1,6 @@
 # Continuous Certification of Non-Functional Properties Across System Changes
 
-> Existing certification schemes implement continuous verification techniques aimed to prove  non-functional (e.g., security) properties of software systems over time. These schemes provide different re-certification techniques for managing the certificate life cycle, though their strong assumptions make them ineffective against modern distributed systems. Re-certification techniques are in fact built on static system models, which do not properly represent the system evolution and on static detection of system changes that result in an inaccurate planning of re-certification activities. In this paper, we propose a continuous certification scheme that departs from a static certificate life cycle management and provides a dynamic approach built on a machine learning-based modeling of the system behavior. It reduces the amount of unnecessary re-certification by monitoring and detecting changes on the system behavior. The quality and performance of the proposed scheme are experimentally evaluated using a publicly-available dataset built on three composite (micro)services in literature.
+> Existing certification schemes implement continuous verification techniques aimed to prove non-functional (e.g., security) properties of software systems over time. These schemes provide different re-certification techniques for managing the certificate life cycle, though their strong assumptions make them ineffective against modern service-based distributed systems. Re-certification techniques are in fact built on static system models, which do not properly represent the system evolution, and on static detection of system changes, which results in an inaccurate planning of re-certification activities. In this paper, we propose a continuous certification scheme that departs from a static certificate life cycle management and provides a dynamic approach built on the modeling of the system behavior that reduces the amount of unnecessary re-certification. The quality of the proposed scheme is experimentally evaluated using an ad hoc dataset built on publicly-available datasets.
 
 This repository contains the source code, input dataset, and detailed results of our experimental evaluation.
 
@@ -28,7 +28,7 @@ The aim of our experimental evaluation is to compare our scheme with a scheme re
 We defined our experimental settings extracting normal and anomalous data from the above data, to generate a dataset including environmental changes and code changes with and without impact on the behavior. Each data point of the dataset is also annotated with additional information (e.g., presence of critical components affected by the change).
 We then apply our scheme and the state of the art scheme on the generated dataset.
 
-Each row of the table below represents an experimental settings driving the generation of our datasets. The process of dataset generation and schemes application have been repeated 10 times for each distributed system and experimental settings. The original paper and [appendix.pdf](appendix.pdf) contain details on the meaning of each columns.
+Each row of the table below represents an experimental settings driving the generation of our datasets. The process of dataset generation and schemes application have been repeated 10 times for each distributed system and experimental settings. The original paper and [Supp1-Exp_Settings.pdf](Supp1-Exp_Settings.pdf) contain details on the meaning of each columns.
 
 | **Name** | $\Delta_b$ | $\Delta_c$ | $\Delta_c$ with cascading | *non critical* | *minor* | $n(comp)_b$ | $n(comp)_{\text{min}}$ | $n(comp)_{\text{maj}}$ |
 | - | - | - | - | - | - | - | - | - |
@@ -121,4 +121,7 @@ Execution is parallelized and experiments should last some minutes.
 
 ## 4. <a name="AppendixPaper"></a> Appendix of the Paper
 
-The file [appendix.pdf](appendix.pdf) contains the appendix of the corresponding paper, including quality evaluation of the machine learning-based system model.
+We provide two supplements of our paper.
+
+- [Supp1-Exp_Settings.pdf](Supp1-Exp_Settings.pdf) contains a detailed description of the experimental process extending its discussion in the paper.
+- [Supp2-Walkthrough.pdf](Supp2-Walkhrough.pdf) contains a detailed walkthrough of the certification scheme presented in the paper.
