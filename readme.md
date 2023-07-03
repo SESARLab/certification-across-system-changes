@@ -124,4 +124,4 @@ Execution is parallelized and experiments should last some minutes.
 We provide two supplements of our paper.
 
 - [Supp1-Exp_Settings.pdf](Supp1-Exp_Settings.pdf) contains a detailed description of the experimental process extending its discussion in the paper.
-- [Supp2-Walkthrough.pdf](Supp2-Walkhrough.pdf) contains a detailed walkthrough of the certification scheme presented in the paper.
+- [Supp2-Walkthrough.pdf](Supp2-Walkthrough.pdf) contains a detailed walkthrough of the certification scheme presented in the paper.
